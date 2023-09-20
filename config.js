@@ -18,7 +18,7 @@ global.prems = ['51992004127'],['50576390682']
 
 global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
 global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
-global.wm = 'ⒽⒶⒸⒽⒾⓀⓄ - ⒷⓄⓉ';
+global.wm = '𝗔 𝗟 𝗖 𝗔 － 𝐁𝐎𝐓 ';
 global.titulowm = '🍭 𝗔 𝗟 𝗖 𝗔 － 𝐁𝐎𝐓 🏓';
 global.titulowm2 = `乂  𝗔 𝗟 𝗖 𝗔 - 𝐁 𝐎 𝐓  乂`
 global.igfg = '✪𝐇𝐚𝐜𝐡𝐢𝐤𝐨 - 𝐁𝐨𝐭✪';
