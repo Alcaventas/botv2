@@ -19,8 +19,8 @@ global.prems = ['51992004127'],['50576390682']
 global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
 global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
 global.wm = 'ⒽⒶⒸⒽⒾⓀⓄ - ⒷⓄⓉ';
-global.titulowm = '🤖 𝐇𝐀𝐂𝐇𝐈𝐊𝐎 － 𝐁𝐎𝐓 🤖';
-global.titulowm2 = `乂  𝐇 𝐀 𝐂 𝐇 𝐈 𝐊 𝐎 - 𝐁 𝐎 𝐓 - 𝐌 𝐃 乂`
+global.titulowm = '🍭 𝗔 𝗟 𝗖 𝗔 － 𝐁𝐎𝐓 🏓';
+global.titulowm2 = `乂  𝗔 𝗟 𝗖 𝗔 - 𝐁 𝐎 𝐓  乂`
 global.igfg = '✪𝐇𝐚𝐜𝐡𝐢𝐤𝐨 - 𝐁𝐨𝐭✪';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
@@ -43,8 +43,8 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 
 //****************************
-global.gp1 = 'https://chat.whatsapp.com/BMGMxj6cU9o4S3huVByLFc'
-global.gp2 = 'https://chat.whatsapp.com/BcCSqRpWctb0J4cNZb02Te'
+global.gp1 = 'https://chat.whatsapp.com/Jx8VTIxfZleKqcDr3bqPHb'
+global.gp2 = 'https://chat.whatsapp.com/ECyUMMoQOUSK60Cjasfa4W'
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙷𝚊𝚌𝚑𝚒𝚔𝚘-𝙱𝚘𝚝`;
 global.gt = '★𝙷𝚊𝚌𝚑𝚒𝚔𝚘-𝙱𝚘𝚝★';
 global.mysticbot = '★𝙷𝙰𝙲𝙷𝙸𝙺𝙾 - 𝙱𝙾𝚃★';
