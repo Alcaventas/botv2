@@ -8,7 +8,7 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['528241050228', '👑 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ', true],
+  ['528241050228', '⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ⭐️ ', true],
   ['50576390682', '✦𝙲𝚄𝚂𝚃𝙾𝙼𝙴𝚁 𝚂𝚄𝙿𝙿𝙾𝚁𝚃✦', true],
   ['5217294888993'],['573106040746'],['51929972576'],['5217774519212'],
 ];
@@ -19,7 +19,7 @@ global.prems = ['51992004127'],['50576390682']
 global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
 global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
 global.wm = '𝗔 𝗟 𝗖 𝗔 － 𝐁𝐎𝐓 ';
-global.titulowm = '🍭 𝗔 𝗟 𝗖 𝗔 － 𝐁𝐎𝐓 🏓';
+global.titulowm = '⭐️ 𝗔 𝗟 𝗖 𝗔 － 𝐁𝐎𝐓 ⭐️';
 global.titulowm2 = ` 𝗔 𝗟 𝗖 𝗔 - 𝐁 𝐎 𝐓  `
 global.igfg = '✪𝐇𝐚𝐜𝐡𝐢𝐤𝐨 - 𝐁𝐨𝐭✪';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
