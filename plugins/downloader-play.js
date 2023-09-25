@@ -5,24 +5,26 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Billie Eilish - Bellyache*\n\n𝙒𝙍𝙄𝙏𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀 𝙊𝙍 𝙏𝙄𝙏𝙇𝙀\n𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*${usedPrefix + command} Billie Eilish - Bellyache*`
+if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
 if (command === 'play') {
-additionalText = '𝘼𝙐𝘿𝙄𝙊 🔊'
+additionalText = 'audio'
 } else if (command === 'play2') {
-additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥'}
-let captionvid = `🌟...𝙀𝙉𝙑𝙄𝘼𝙉𝘿𝙊 🎶 ….`
-  
+additionalText = 'video'}
+let captionvid = `⟣☘ *𝚃𝙸𝚃𝚄𝙻𝙾:* ${yt_play[0].title}
+⟣⏳ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${secondString(yt_play[0].duration.seconds)}
+⟣👤 *𝙰𝚄𝚃𝙾𝚁:* ${yt_play[0].author.name}
+⟣🚀 *_Enviando ${additionalText}, aguarde un momento．．．_*`
 await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
 externalAdReply: {
 title: yt_play[0].title,
-body: packname,
+body: titulowm2,
 thumbnailUrl: yt_play[0].thumbnail, 
-mediaType: 0,
+mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
 }}} , { quoted: m })
@@ -111,7 +113,7 @@ const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
 const dl_url = await yt.video[q].download()
 const ttl = await yt.title
 const size = await yt.video[q].fileSizeH
-await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: ` 🌀 𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀\n┃ ${ttl}\n╰━━━━━❰ *ALCA BOT* ❱━━━━⬣`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
+await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `╭━❰ *𝙰𝙻𝙲𝙰𝙱𝙾𝚃* ❱━⬣\n┃🚀 𝐓𝐈𝐓𝐔𝐋𝐎:\n┃ ${ttl}\n╰━❰ *𝙰𝙻𝙲𝙰𝙱𝙾𝚃* ❱━⬣`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
 } catch {   
 try {  
 let mediaa = await ytMp4(yt_play[0].url)
@@ -124,7 +126,7 @@ let n = lolh.result.title || 'error'
 let n2 = lolh.result.link
 let n3 = lolh.result.size
 let n4 = lolh.result.thumbnail
-await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `╭━❰  ALCABOT ❱━⬣\n┃ 💜 𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀\n┃ ${n}\n╰━━━━━❰ *𓃠 ${vs}* ❱━━━━⬣`, thumbnail: await fetch(n4) }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `╭━❰ *𝙰𝙻𝙲𝙰𝙱𝙾𝚃* ❱━⬣\n┃🚀 𝐓𝐈𝐓𝐔𝐋𝐎:\n┃ ${n}\n╰━❰ *𝙰𝙻𝙲𝙰𝙱𝙾𝚃* ❱━⬣`, thumbnail: await fetch(n4) }, { quoted: m })
 } catch {
 }}}    
 }} catch {
@@ -141,7 +143,7 @@ return search.videos};
 
 function MilesNumber(number) {
 const exp = /(\d)(?=(\d{3})+(?!\d))/g;
-const rep = "$0.";
+const rep = "$1.";
 let arr = number.toString().split(".");
 arr[0] = arr[0].replace(exp, rep);
 return arr[1] ? arr.join(".") : arr[0]};
