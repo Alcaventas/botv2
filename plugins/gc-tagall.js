@@ -1,16 +1,16 @@
-const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, command, usedPrefix}) => {
+const handler = async (m, {isOwner, isAdmin, conn, const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, command, usedPrefix}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   if (!(isAdmin || isOwner)) {
     global.dfail('admin', m, conn);
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `*𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${pesan}`;
-  let teks = `*⺀𝙈𝙀𝙉𝘾𝙄𝙊́𝙉 𝙂𝙀𝙉𝙀𝙍𝘼𝙇 ⺀*\n\n➪ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧\n\n➪ *𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼 :*\n`;
+  const oi = `*𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* 𝙰𝙻𝙲𝙰𝙱𝙾𝚃🌟`;
+  let teks = `*𝙼𝙴𝙽𝙲𝙸𝙾𝙽 𝙶𝙴𝙽𝙴𝚁𝙰𝙻*\n\n🌟 𝙰𝙻𝙲𝙰-𝙱𝙾𝚃 \n\n🌟 *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`;
   for (const mem of participants) {
-    teks += `🦋 @${mem.id.split('@')[0]}\n`;
+    teks += `⭐️ @${mem.id.split('@')[0]}\n`;
   }
-  teks += `* 𝐁𝐲 𝗔𝗟𝗖𝗔-𝗕𝗢𝗧\n\n*`;
+   teks += `* 𝙲 𝚁 𝙴 𝙰 𝚃 𝙾 𝚁 \n\n*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
