@@ -25,12 +25,12 @@ global.igfg = '✪𝐇𝐚𝐜𝐡𝐢𝐤𝐨 - 𝐁𝐨𝐭✪';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
-global.imagen2 = fs.readFileSync('./10 sin título_20231007220313.png');
-global.imagen3 = fs.readFileSync('./10 sin título_20231007220313.png');
-global.imagen4 = fs.readFileSync('./10 sin título_20231007220313.png');
-global.imagen5 = fs.readFileSync('./10 sin título_20231007220313.png');
-global.imagen6= fs.readFileSync('./10 sin título_20231007220313.png');
-global.imagen7= fs.readFileSync('./10 sin título_20231007220313.png');
+global.imagen2 = fs.readFileSync('./alca1.PNG');
+global.imagen3 = fs.readFileSync('./alca1.PNG');
+global.imagen4 = fs.readFileSync('./alca1.PNG');
+global.imagen5 = fs.readFileSync('./alca1.PNG');
+global.imagen6= fs.readFileSync('./alca1.PNG');
+global.imagen7= fs.readFileSync('./alca1.PNG');
 global.mods = [];
 
 //* *******Tiempo***************
