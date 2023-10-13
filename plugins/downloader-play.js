@@ -17,8 +17,8 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
       additionalText = 'video 🎥';
     }
     const texto1 = `
-| 📃 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${yt_play[0].title}
-⟣☘︎ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
+*TITULO:* ${yt_play[0].title}
+*Enviando ${additionalText}, aguarde un momento．．．*`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
       try {      
