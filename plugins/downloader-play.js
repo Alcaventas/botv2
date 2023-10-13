@@ -17,12 +17,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
       additionalText = 'video 🎥';
     }
     const texto1 = `
-⟣☘︎ 📃 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${yt_play[0].title}
-⟣☘︎ ⏱️ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${secondString(yt_play[0].duration.seconds)}
-⟣☘︎ 🧿 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${`${MilesNumber(yt_play[0].views)}`}
-⟣☘︎ 👤 *𝙰𝚄𝚃𝙾𝚁:* ${yt_play[0].author.name}
-⟣☘︎ 🔮 *𝙲𝙰𝙽𝙰𝙻:* ${yt_play[0].author.url}
-⟣☘︎ 🔗 *𝙻𝙸𝙽𝙺:* ${yt_play[0].url}\n
+| 📃 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${yt_play[0].title}
 ⟣☘︎ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
