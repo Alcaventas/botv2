@@ -57,7 +57,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣🫰🏻 𝐪𝐜 𝚝𝚎𝚡𝚝𝚘
 ┣🫰🏻 𝐤𝐢𝐬𝐬 @𝚝𝚊𝚐
 ┗━━━━━━━━━━━━━━━━┛
-*⛔️𝙲𝚄𝙰𝙻𝚀𝚄𝙸𝙴𝚁 𝙳𝚄𝙳𝙰 𝙼𝙰𝙽𝙳𝙰𝚁 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙰𝙻 𝙿𝚁𝙸𝚅𝙰𝙳𝙾 𝙶𝚁𝚇*`;
+*☑️ SI NO FUNCIONA BOT MANDEN DM*`;
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen4, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: m});
 };
 handler.help = ['menu'];
